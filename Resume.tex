@@ -1,0 +1,190 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Roy Luo} \\ \vspace{1pt}
+    \small 437-363-4171 $|$ \href{mailto:r53luo@uwaterloo.ca}{\underline{r53luo@uwaterloo.ca}} $|$ 
+    \href{https://linkedin.com/in/luo-roy/}{\underline{https://www.linkedin.com/in/luo-roy/}} $|$
+    \href{https://github.com/Derpilicious}{\underline{https://github.com/Derpilicious}}
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, R, SQL, C, Bash} \\
+     \textbf{Platforms and Tools}{: Microsoft PowerBI, SQL Server, Git, Google BigQuery, Jupyter Notebook} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, Selenium, tidyverse, ggplot2} \\
+     %\textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development (C/Bash/Linux)} \\
+    }}
+ \end{itemize}
+ 
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SimCorp Dimension Analyst Intern}{June 2023 -- August 2023}
+      {Texas A\&M University}{Markham, ON}
+      \resumeItemListStart
+        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
+        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{League of Legends Jungle Tracker} $|$ \emph{Python, pandas, Matplotlib, Plotly, Selenium}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a Python back-end that takes user input to retrieve and visualize data from a REST API}
+            \resumeItem{Web application that is hosted on Streamlit}
+            \resumeItem{Used Plotly and Matplotlib as data visualization libraries}
+            \resumeItem{Used Selenium to webscrape for additional information to be displayed.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Live Crypto Orderbook Dashboard} $|$ \emph{R, SQL Server}}{}
+          \resumeItemListStart
+            \resumeItem{Developed an R script to take in live websocket data to be cleaned and reformatted before uploading to a SQL Server}
+            \resumeItem{Maintains a near real-time orderbook of any cryptocurrency with current mid-market rate and bid/ask prices}
+            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{}
+      {Honours Mathematics, Coop}{September 2023 \textbf{--} April 2027}
+    \resumeSubheading
+      {McMaster University}{}
+      {Mathematics and Statistics - GPA: 3.96/4.00}{September 2022 \textbf{--} August 2023}
+
+      %\textit{\small \textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development}(C/Bash/Linux)} \\
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------ADDITIONAL SKILLS-----------
+\section{Additional Information}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Certificates}{: Google Data Analytics} \\
+     \textbf{Languages}{: English, Mandarin, French} \\
+    }}
+ \end{itemize}
+ 
+\end{document}
