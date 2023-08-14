@@ -1,1 +1,1 @@
-Copied from Jake's Resume. Contains my pdf as well as tex file.
+Copied from Jake's Resume. Contains the pdf as well as tex file.
