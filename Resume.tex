@@ -123,7 +123,7 @@
     \small{\item{
      \textbf{Languages}{: Python, R, SQL, C, Bash} \\
      \textbf{Platforms and Tools}{: Microsoft PowerBI, SQL Server, Git, Google BigQuery, Jupyter Notebook} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, Selenium, tidyverse, ggplot2} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, Selenium, tidyverse, ggplot2,  jsonlite, lubridate, dplyr} \\
      %\textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development (C/Bash/Linux)} \\
     }}
  \end{itemize}
@@ -137,8 +137,8 @@
       {Precision Insight Consulting}{Markham, ON}
       \resumeItemListStart
         \resumeItem{Used Data Format System (DFS) to import and load equity/bond trades, map to SCD transaction codes and use formulas to determine instrument type for validation}
-        \resumeItem{Used Batch Job Group to extract definition from transaction table}
-        \resumeItem{Built reference file of Daily CAD/USD settlement}
+        \resumeItem{Configured batch jobs to extract definitions from transaction table}
+        \resumeItem{Built reference file of daily CAD/USD settlement}
         \resumeItem{Managed, reviewed and assigned Jira tickets as necessary}
       \resumeItemListEnd
 
@@ -148,20 +148,30 @@
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{League of Legends Jungle Tracker} $|$ \emph{Python, pandas, Matplotlib, Plotly, Selenium}}{}
+          {\textbf{League of Legends Jungle Tracker} $|$ \emph{Python, pandas, Plotly, requests}}{}
           \resumeItemListStart
-            \resumeItem{Developed a Python back-end that takes user input to retrieve and visualize data from a REST API}
-            \resumeItem{Web application that is hosted on Streamlit}
-            \resumeItem{Used Plotly and Matplotlib as data visualization libraries}
-            \resumeItem{Used Selenium to webscrape for additional information to be displayed}
+            \resumeItem{Developed a Python application with Streamlit UI that takes in user input to retrieve data from a REST API}
+            \resumeItem{Handled data with pandas to be used to generate on demand interactive visualizations with Plotly}
+            \resumeItem{Implemented algorithms to identify certain players in ongoing matches and extract specified data}
+            \resumeItem{Incorporated edge case and error handling with requests library alongside user input validation}
+            \resumeItem{Visualizes players in-game position at specified time intervals in historical matches}
           \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Live Crypto Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI}}{}
+      	\resumeProjectHeading
+          {\textbf{Live Crypto Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI, jsonlite}}{}
           \resumeItemListStart
-            \resumeItem{Created an R script to take in live websocket data to be cleaned and reformatted before uploading to a SQL Server}
-            \resumeItem{Maintains a near real-time orderbook of any cryptocurrency with current mid-market rate and bid/ask prices}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+           \resumeItem{Wrote an R script to take in live orderbook data from Coinbase websocket to be parsed through and reformatted}
+           \resumeItem{Uploads data to SQL Server, loaded into PowerBI with DirectQuery and visualized with dashboard charts}
+           \resumeItem{Ensured an efficient data processing pipeline that facilitates real-time updates and maintenance of a structured dataset for further analysis}
+           \resumeItem{Maintains a near real-time cryptocurrency orderbook that displays important metrics such as mid-market rate, order prices, market depth as well as bid-ask spread}
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{UFO Sighting Data Analysis} $|$ \emph{R, tidyverse, ggplot2, dplyr, lubridate}}{}
+          \resumeItemListStart
+            \resumeItem{Cleaned and transformed Kaggle datasets using R and it's respective data science libraries}
+            \resumeItem{Applied data wrangling techniques to primarily time series and geographic data for proper data preparation}
+            \resumeItem{Conducted exploratory data analysis to explore relationships and extract actionable insights}
+            \resumeItem{Communicated results with ggplot2 visualizations}
+            \resumeItem{Analyzed UFO sighting data to highlight factors about the lack of conclusive evidence concerning the existence of extra terrestrial life}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
