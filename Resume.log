@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.16)  29 AUG 2023 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.16)  30 AUG 2023 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -367,7 +367,7 @@ Package rerunfilecheck Info: File `Resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10214 strings out of 478268
  161651 string characters out of 5846347
- 496261 words of memory out of 5000000
+ 497261 words of memory out of 5000000
  28303 multiletter control sequences out of 15000+600000
  475210 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
