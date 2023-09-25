@@ -111,16 +111,19 @@
     \href{https://github.com/Derpilicious}{\underline{https://github.com/Derpilicious}}
 \end{center}
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, R, SQL, C, Bash} \\
-     \textbf{Platforms and Tools}{: Microsoft PowerBI, SQL Server, Git} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, Selenium, tidyverse, ggplot2} \\
-     %\textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development (C/Bash/Linux)} \\
-    }}
- \end{itemize}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{}
+      {Honours Mathematics, Coop}{September 2023 \textbf{--} April 2027}
+    \resumeSubheading
+      {McMaster University}{}
+      {Mathematics and Statistics - GPA: 3.96/4.00}{September 2022 \textbf{--} April 2023}
+
+      %\textit{\small \textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development}(C/Bash/Linux)} \\
+  \resumeSubHeadingListEnd
+%-------------------------------------------
  
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -141,8 +144,15 @@
 \section{Projects}
 \resumeSubHeadingListStart
     \resumeProjectHeading
-        {\textbf{League of Legends Jungle Tracker} $|$ \emph{Python, pandas, Plotly}}
-        {}
+        {\textbf{Live Crypto Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI}}{}
+        \resumeItemListStart
+            \resumeItem{Developed an R script to reformat live orderbook data from Coinbase's websocket feed.}
+            \resumeItem{Uploaded and stored data in SQL Server, loaded it into PowerBI using DirectQuery and created live dashboard.}
+            \resumeItem{Engineered an efficient data processing pipeline for real-time updates and maintenance of a structured dataset for further analysis.}
+            \resumeItem{Maintained a near real-time cryptocurrency orderbook dashboard, displaying critical metrics like mid-market rate, order prices, market depth, and bid-ask spread.}
+        \resumeItemListEnd
+        \resumeProjectHeading
+        {\textbf{League of Legends Jungle Tracker} $|$ \emph{Python, pandas, Plotly}}{}
         \resumeItemListStart
             \resumeItem{Developed a Python application with a Streamlit UI to retrieve data from a REST API based on user input.}
             \resumeItem{Utilized pandas to process data, generating interactive Plotly visualizations on-demand.}
@@ -151,17 +161,7 @@
             \resumeItem{Visualized players' in-game positions at defined time intervals in historical matches.}
         \resumeItemListEnd
     \resumeProjectHeading
-        {\textbf{Live Crypto Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI}}
-        {}
-        \resumeItemListStart
-            \resumeItem{Developed an R script to reformat live orderbook data from Coinbase's websocket feed.}
-            \resumeItem{Uploaded and stored data in SQL Server, loaded it into PowerBI using DirectQuery and created live dashboard.}
-            \resumeItem{Engineered an efficient data processing pipeline for real-time updates and maintenance of a structured dataset for further analysis.}
-            \resumeItem{Maintained a near real-time cryptocurrency orderbook dashboard, displaying critical metrics like mid-market rate, order prices, market depth, and bid-ask spread.}
-        \resumeItemListEnd
-    \resumeProjectHeading
-        {\textbf{UFO Sighting Data Analysis} $|$ \emph{R, tidyverse, ggplot2}}
-        {}
+        {\textbf{UFO Sighting Data Analysis} $|$ \emph{R, tidyverse, ggplot2}}{}
         \resumeItemListStart
             \resumeItem{Processed and transformed Kaggle datasets using R's data science libraries, ensuring high data quality.}
             \resumeItem{Applied advanced data wrangling techniques, focusing on time series and geographic data to prepare the data for analysis.}
@@ -171,28 +171,24 @@
         \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of Waterloo}{}
-      {Honours Mathematics, Coop}{September 2023 \textbf{--} April 2027}
-    \resumeSubheading
-      {McMaster University}{}
-      {Mathematics and Statistics - GPA: 3.96/4.00}{September 2022 \textbf{--} April 2023}
-
-      %\textit{\small \textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development}(C/Bash/Linux)} \\
-  \resumeSubHeadingListEnd
-%-------------------------------------------
-
-%-----------ADDITIONAL SKILLS-----------
-\section{Additional Information}
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Certificates}{: Google Data Analytics} \\
-     \textbf{Languages}{: English, Mandarin, French} \\
+     \textbf{Languages}{: Python, R, SQL, C, Bash} \\
+     \textbf{Platforms and Tools}{: PowerBI, SQL Server, Excel, Git} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, tidyverse, ggplot2} \\
+     %\textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development (C/Bash/Linux)} \\
     }}
  \end{itemize}
+
+%-----------ADDITIONAL SKILLS-----------
+%\section{Additional Information}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%    \small{\item{
+%     \textbf{Certificates}{: Google Data Analytics} \\
+%     \textbf{Languages}{: English, Mandarin, French} \\
+%    }}
+% \end{itemize}
  
 \end{document}
