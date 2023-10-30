@@ -1,0 +1,227 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Roy Luo} \\ \vspace{1pt}
+    \small 437-363-4171 $|$ \href{mailto:royluocanada@gmail.com}{\underline{royluocanada@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/luo-roy/}{\underline{https://www.linkedin.com/in/luo-roy/}} $|$
+    \href{https://github.com/Derpilicious}{\underline{https://github.com/Derpilicious}}
+\end{center}
+ 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{}
+      {Honours Mathematics, Coop}{September 2023 \textbf{--} April 2027}
+    \resumeSubheading
+      {McMaster University}{}
+      {Mathematics and Statistics}{September 2022 \textbf{--} April 2023}
+
+      
+% %-----------PROGRAMMING SKILLS-----------
+%\section{Technical Skills}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%    \small{\item{
+%     \textbf{Languages}{: Python, R, SQL, C, Bash} \\
+%     \textbf{Platforms and Tools}{: PowerBI, SQL Server, Excel, Git} \\
+%     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, tidyverse, ggplot2} \\
+%     %\textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development (C/Bash/Linux)} \\
+%    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+%      \resumeSubheading
+%    {Incoming Investment Risk Analyst Intern}{January 2024 -- April 2024}
+%    {HOOPP (Healthcare of Ontario Pension Plan)}{Toronto, ON}
+%\resumeItemListStart
+%    \resumeItem{Enhance existing workflows and processes through automation}
+%    \resumeItem{Gather, analyze, and summarize risk metric changes over time}
+%    \resumeItem{Design and implement risk reports, dashboard, and other visualization tools}
+%    \resumeItem{Support the development of new risk measures and reports}
+%\resumeItemListEnd
+    \resumeSubheading
+    {SimCorp Dimension Analyst Intern}{May 2023 -- August 2023}
+    {Precision Insight Consulting}{Markham, ON}
+\resumeItemListStart
+    \resumeItem{Utilized the Data Format System (DFS) to import and load equity/bond trades, performing mapping to SCD transaction codes and applying formulas to ascertain instrument types for validation.}
+    \resumeItem{Configured and managed batch jobs for the extraction of definitions from the transaction table, optimizing data handling and processing efficiency.}
+    \resumeItem{Constructed a reference file documenting daily CAD/USD settlement, enhancing data accessibility and accuracy for analytical purposes.}
+    \resumeItem{Effectively managed, reviewed, and allocated Jira tickets, ensuring seamless coordination and timely resolution of tasks.}
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Live Crypto Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI}}{}
+        \resumeItemListStart
+            \resumeItem{Developed an R script to reformat live orderbook data from Coinbase's websocket feed.}
+            \resumeItem{Uploaded and stored data in SQL Server, loaded it into PowerBI using DirectQuery and created live dashboard.}
+            \resumeItem{Engineered an efficient data processing pipeline for real-time updates and maintenance of a structured dataset for further analysis.}
+            \resumeItem{Maintained a near real-time cryptocurrency orderbook dashboard, displaying critical metrics like mid-market rate, order prices, market depth, and bid-ask spread.}
+        \resumeItemListEnd
+        \resumeProjectHeading
+        {\textbf{League of Legends Jungle Tracker} $|$ \emph{Python, pandas, Plotly}}{}
+        \resumeItemListStart
+            \resumeItem{Developed a Python application with a Streamlit UI to retrieve data from a REST API based on user input.}
+            \resumeItem{Utilized pandas to process data, generating interactive Plotly visualizations on-demand.}
+            \resumeItem{Implemented algorithms to identify specific players in ongoing matches and extract targeted data.}
+            \resumeItem{Parsed through JSON data and handled API errors using requests library.}
+            \resumeItem{Visualized players' in-game positions at defined time intervals in historical matches.}
+        \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{UFO Sighting Data Analysis} $|$ \emph{R, tidyverse, ggplot2}}{}
+        \resumeItemListStart
+            \resumeItem{Processed and transformed Kaggle datasets using R's data science libraries, ensuring high data quality.}
+            \resumeItem{Applied advanced data wrangling techniques, focusing on time series and geographic data to prepare the data for analysis.}
+            \resumeItem{Conducted thorough exploratory data analysis, uncovering significant relationships and extracting actionable insights.}
+            \resumeItem{Effectively communicated findings using engaging ggplot2 visualizations, enhancing data-driven storytelling.}
+            \resumeItem{Analyzed UFO sighting data to shed light on the lack of conclusive evidence regarding the existence of extraterrestrial life.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%%-----------EDUCATION-----------
+%\section{Education}
+%  \resumeSubHeadingListStart
+%    \resumeSubheading
+%      {University of Waterloo}{}
+%      {Honours Mathematics, Coop}{September 2023 \textbf{--} April 2027}
+%    \resumeSubheading
+%      {McMaster University}{}
+%      {Mathematics and Statistics}{September 2022 \textbf{--} April 2023}
+%
+%      %\textit{\small \textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development}(C/Bash/Linux)} \\
+%  \resumeSubHeadingListEnd
+%%-------------------------------------------
+
+ %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, R, SQL, C, Bash} \\
+     \textbf{Platforms and Tools}{: PowerBI, SQL Server, Excel, Git} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, tidyverse, ggplot2} \\
+     %\textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development (C/Bash/Linux)} \\
+    }}
+ \end{itemize}
+
+
+%-----------ADDITIONAL SKILLS-----------
+%\section{Additional Information}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%    \small{\item{
+%     \textbf{Certificates}{: Google Data Analytics} \\
+%     \textbf{Languages}{: English, Mandarin, French} \\
+%    }}
+% \end{itemize}
+ 
+\end{document}
