@@ -126,52 +126,71 @@
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
    \small{\item{
-    \textbf{Languages}{: Python, R, SQL, C, Bash} \\
-    \textbf{Platforms and Tools}{: PowerBI, SQL Server, Excel, Git} \\
-    \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, tidyverse, ggplot2} \\
+    \textbf{Languages}{: Python, R, SQL} \\
+    \textbf{Platforms and Tools}{: PowerBI, Excel, Git} \\
+    \textbf{Libraries}{: pandas, NumPy, scipy, scikit-learn, Matplotlib, Plotly, tidyverse, ggplot2} \\
     %\textbf{Relevant Coursework}{: Scientific Computation (Python), Data Science (R), Software Development (C/Bash/Linux)} \\
    }}
  \end{itemize}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
-  \resumeSubHeadingListStart
+\resumeSubHeadingListStart
+
     \resumeSubheading
     {Investment Risk Analyst Intern}{January 2024 -- April 2024}
     {Healthcare of Ontario Pension Plan}{Toronto, ON}
 \resumeItemListStart
-    \resumeItem{Developed and implemented a dynamic hedging calculation automation using Python 
-    and Excel, reducing manual processing time by 20+ hours a month and enhancing monthly reporting accuracy}
-    \resumeItem{Engineered a stress testing tool that evaluated the impact of real interest rate fluctuations 
-    on billions in liabilities and U.S. Treasury bond holdings}
-    \resumeItem{Design and implement risk reports, dashboard, and other visualization tools}
-    \resumeItem{Support the development of new risk measures and reports}
+    \resumeItem{Automated dynamic hedging calculations using Python, reducing manual processing 
+    time by 20 hours a month and improving reporting accuracy.}
+    
+    \resumeItem{Bootstrapped market data to construct time series 
+    datasets in Excel, used for 10,000 Monte Carlo simulations to 
+    enhance accuracy and reliability of VaR assessments.}
+    
+    \resumeItem{Engineered a stress testing tool that evaluated the impact of real rate fluctuations 
+    on billions in both liabilities and fixed-income holdings using data from Snowflake, SAP HANA and SQL Server.}
+    
+    \resumeItem{Streamlined the process for generating liquidity risk reports using matplotlib, 
+    reducing the turnaround time by 33\% and ensuring compliance with financial regulations.}
 \resumeItemListEnd
+
     \resumeSubheading
-    {Data Analyst Intern}{May 2023 -- August 2023}
+    {Simcorp Dimension Intern}{May 2023 -- August 2023}
     {Precision Insight Consulting}{Markham, ON}
 \resumeItemListStart
-    \resumeItem{Automated over 10 workflows by incorporating 30+ Microsoft Office Scripts and .NET console applications to
-    improve workflow procedure, bolster work capacity, and reduce workflow execution time}
-    \resumeItem{Wrote 4 technical documentations to preserve manufacturing process knowledge and standardize operations}
-    \resumeItem{Analyzed over 7000+ data entries using Excel to optimize SMT machine precision and meet product tolerances}
-    \resumeItem{Pioneered a PCB database and label placement standard to enable internal traceability for over 200 products}
+  \resumeItem{Imported equity/bond trades using built-in tools, mapping them to transaction 
+  codes and performing instrument type validation.}
+
+  \resumeItem{Configured and managed batch jobs for data extraction, 
+  optimizing data handling and processing efficiency.}
+
+  \resumeItem{Constructed a reference file documenting daily CAD/USD settlements in Excel and 
+  NAV reconciliation reports in Python, enhancing data accessibility and accuracy for further analytical purposes.}
+
+  \resumeItem{Managed, reviewed, and allocated Jira tickets, ensuring seamless coordination and 
+  timely resolution of tasks.}
 \resumeItemListEnd
-
-
 \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
+
     \resumeProjectHeading
         {\textbf{Live Crypto Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI}}{}
         \resumeItemListStart
-            \resumeItem{Cloned a Discord music bot using NodeJS to allow users to play music from YouTube within Discord servers}
-            \resumeItem{Uploaded and stored data in SQL Server, loaded it into PowerBI using DirectQuery and created live dashboard.}
-            \resumeItem{Engineered an efficient data processing pipeline for real-time updates and maintenance of a structured dataset for further analysis.}
-            \resumeItem{Maintained a near real-time cryptocurrency orderbook dashboard, displaying critical metrics like mid-market rate, order prices, market depth, and bid-ask spread.}
+            \resumeItem{Developed an R script to extract, clean and reformat live orderbook data from a websocket 
+            feed transmitting 50+ Bitcoin orders a second.}
+            \resumeItem{Uploaded and stored data in SQL Server, which was loaded into PowerBI 
+            using DirectQuery and used to create a live dashboard.}
+            %\resumeItem{Engineered an efficient data ETL pipeline for real-time 
+            %updates and maintenance of a structured dataset for further analysis.}
+            \resumeItem{Maintained a near real-time cryptocurrency orderbook dashboard, 
+            displaying important metrics like mid-market rate, order prices, market depth, 
+            and bid-ask spread.}
         \resumeItemListEnd
+
         \resumeProjectHeading
         {\textbf{League of Legends Jungle Tracker} $|$ \emph{Python, pandas, Plotly}}{}
         \resumeItemListStart
@@ -181,15 +200,17 @@
             \resumeItem{Parsed through JSON data and handled API errors using requests library.}
             \resumeItem{Visualized players' in-game positions at defined time intervals in historical matches.}
         \resumeItemListEnd
-    \resumeProjectHeading
-        {\textbf{UFO Sighting Data Analysis} $|$ \emph{R, tidyverse, ggplot2}}{}
-        \resumeItemListStart
-            \resumeItem{Processed and transformed Kaggle datasets using R's data science libraries, ensuring high data quality.}
-            \resumeItem{Applied advanced data wrangling techniques, focusing on time series and geographic data to prepare the data for analysis.}
-            \resumeItem{Conducted thorough exploratory data analysis, uncovering significant relationships and extracting actionable insights.}
-            \resumeItem{Effectively communicated findings using engaging ggplot2 visualizations, enhancing data-driven storytelling.}
-            \resumeItem{Analyzed UFO sighting data to shed light on the lack of conclusive evidence regarding the existence of extraterrestrial life.}
-        \resumeItemListEnd
+
+        % \resumeProjectHeading
+        % {\textbf{UFO Sighting Data Analysis} $|$ \emph{R, tidyverse, ggplot2}}{}
+        % \resumeItemListStart
+        %     \resumeItem{Processed and transformed Kaggle datasets using R's data science libraries, ensuring high data quality.}
+        %     \resumeItem{Applied advanced data wrangling techniques, focusing on time series and geographic data to prepare the data for analysis.}
+        %     \resumeItem{Conducted thorough exploratory data analysis, uncovering significant relationships and extracting actionable insights.}
+        %     \resumeItem{Effectively communicated findings using engaging ggplot2 visualizations, enhancing data-driven storytelling.}
+        %     \resumeItem{Analyzed UFO sighting data to shed light on the lack of conclusive evidence regarding the existence of extraterrestrial life.}
+        % \resumeItemListEnd
+
 \resumeSubHeadingListEnd
 
 %%-----------EDUCATION-----------
@@ -219,11 +240,13 @@
 
 
 %-----------ADDITIONAL SKILLS-----------
-%\section{Additional Information}
+% \section{Additional Information}
 % \begin{itemize}[leftmargin=0.15in, label={}]
 %    \small{\item{
 %     \textbf{Certificates}{: Google Data Analytics} \\
 %     \textbf{Languages}{: English, Mandarin, French} \\
+%     \textbf{Awards}{: Most Use of Verbwire API at Deltahacks Hackathon} \\
+%     \textbf{Clubs}{: Waterloo SERVE, UW Data Science, UW FARMSA} \\
 %    }}
 % \end{itemize}
  
