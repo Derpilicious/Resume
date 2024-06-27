@@ -116,7 +116,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Waterloo}{Waterloo, Ontario}
-      {Honours Mathematics, Coop}{September 2023 \textbf{--} April 2027}
+      {Statistics, Coop}{September 2023 \textbf{--} April 2027}
     \resumeSubheading
       {McMaster University}{Hamilton, Ontario}
       {Mathematics and Statistics}{September 2022 \textbf{--} April 2023}
@@ -137,6 +137,13 @@
 \section{Experience}
 \resumeSubHeadingListStart
 
+\resumeSubheading
+{Data Engineering Intern}{September 2024 -- December 2024}
+{Questrade Financial Group}{Toronto, ON}
+\resumeItemListStart
+\resumeItem{Working in the Data Warehousing and Engineering department.}
+\resumeItemListEnd
+
     \resumeSubheading
     {Investment Risk Analyst Intern}{January 2024 -- April 2024}
     {Healthcare of Ontario Pension Plan}{Toronto, ON}
@@ -156,10 +163,10 @@
 \resumeItemListEnd
 
     \resumeSubheading
-    {Simcorp Dimension Intern}{May 2023 -- August 2023}
-    {Precision Insight Consulting}{Markham, ON}
+    {Data Analyst Intern}{May 2023 -- August 2023}
+    {Precision Insight Consulting}{Toronto, ON}
 \resumeItemListStart
-  \resumeItem{Imported equity/bond trades using built-in tools, mapping them to transaction 
+  \resumeItem{Imported equity/bond trades using built-in Simcorp Dimension tools, mapping them to transaction 
   codes and performing instrument type validation with a 99.5\% accuracy rate.}
 
   \resumeItem{Configured and managed batch jobs for data extraction, 
@@ -177,40 +184,30 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-    \resumeProjectHeading
-        {\textbf{Live Bitcoin Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI}}{}
-        \resumeItemListStart
-            \resumeItem{Developed an R script to extract, clean and reformat live orderbook data from a websocket 
-            feed transmitting 25000+ Bitcoin orders a minute.}
-            \resumeItem{Uploaded and stored data in SQL Server, which was loaded into PowerBI 
-            using DirectQuery, resulting in a 50\% reduction in dashboard loading time compared to traditional data loading methods.}
-            %\resumeItem{Engineered an efficient ETL pipeline for real-time 
-            %updates and maintenance of a structured dataset for further analysis.}
-            \resumeItem{Maintained a near real-time cryptocurrency orderbook dashboard with a refresh rate of 1 second, 
-            displaying important metrics like mid-market rate, order prices, market depth, 
-            and bid-ask spread.}
-        \resumeItemListEnd
+\resumeProjectHeading
+{\textbf{League of Legends Churn Analysis} $|$ \emph{Python, pandas, sklearn}}{}
+\resumeItemListStart
+    \resumeItem{Leveraged a REST API to collect extensive gameplay data, 
+    including match statistics and player attributes for over 1,000 new players.}
+    \resumeItem{Implemented and optimized machine learning models, including logistic 
+    regression, decision tree, random forests, and neural networks, achieving up to 78\% accuracy in predicting player retention.}
+    \resumeItem{Engineered relevant features and applied dimensionality reduction techniques like principal component analysis 
+    (PCA) to extract important patterns and reduce data complexity, achieving up to 95.75\% variance explained.}
+  \resumeItemListEnd
 
-        \resumeProjectHeading
-        {\textbf{League of Legends Churn Analysis} $|$ \emph{Python, pandas, sklearn}}{}
-        \resumeItemListStart
-            \resumeItem{Leveraged a REST API to collect extensive gameplay data, 
-            including match statistics and player attributes for over 1,000 new players.}
-            \resumeItem{Implemented and optimized machine learning models, including logistic 
-            regression, decision tree, random forests, and neural networks, achieving up to 78\% accuracy in predicting player retention.}
-            \resumeItem{Engineered relevant features and applied dimensionality reduction techniques like principal component analysis 
-            (PCA) to extract important patterns and reduce data complexity, achieving up to 95.75\% variance explained.}
-          \resumeItemListEnd
-
-        % \resumeProjectHeading
-        % {\textbf{UFO Sighting Data Analysis} $|$ \emph{R, tidyverse, ggplot2}}{}
-        % \resumeItemListStart
-        %     \resumeItem{Processed and transformed Kaggle datasets using R's data science libraries, ensuring high data quality.}
-        %     \resumeItem{Applied advanced data wrangling techniques, focusing on time series and geographic data to prepare the data for analysis.}
-        %     \resumeItem{Conducted thorough exploratory data analysis, uncovering significant relationships and extracting actionable insights.}
-        %     \resumeItem{Effectively communicated findings using engaging ggplot2 visualizations, enhancing data-driven storytelling.}
-        %     \resumeItem{Analyzed UFO sighting data to shed light on the lack of conclusive evidence regarding the existence of extraterrestrial life.}
-        % \resumeItemListEnd
+\resumeProjectHeading
+    {\textbf{Live Bitcoin Orderbook Dashboard} $|$ \emph{R, SQL Server, PowerBI}}{}
+    \resumeItemListStart
+        \resumeItem{Developed an R script to extract, clean and reformat live orderbook data from a websocket 
+        feed transmitting 25000+ Bitcoin orders a minute.}
+        \resumeItem{Uploaded and stored data in SQL Server, which was loaded into PowerBI 
+        using DirectQuery, resulting in a 50\% reduction in dashboard loading time compared to traditional data loading methods.}
+        %\resumeItem{Engineered an efficient ETL pipeline for real-time 
+        %updates and maintenance of a structured dataset for further analysis.}
+        \resumeItem{Maintained a near real-time cryptocurrency orderbook dashboard with a refresh rate of 1 second, 
+        displaying important metrics like mid-market rate, order prices, market depth, 
+        and bid-ask spread.}
+    \resumeItemListEnd
 
 \resumeSubHeadingListEnd
 
